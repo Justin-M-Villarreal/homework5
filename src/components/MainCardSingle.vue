@@ -5,7 +5,7 @@ const firstname = faker.person.firstName()
 const lastname = faker.person.lastName()
 const job_title = faker.person.jobTitle()
 const bio = faker.lorem.lines(2)
-const username = faker.internet.userName({firstName: firstname, lastName:lastname}).toLowerCase()
+const username = faker.internet.username({firstName: firstname, lastName:lastname}).toLowerCase()
 
 </script>
 
